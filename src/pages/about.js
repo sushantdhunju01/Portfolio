@@ -15,9 +15,7 @@ function About() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Welcome to our portfolio! We are a team of passionate developers
-          dedicated to creating innovative web solutions. Our goal is to deliver
-          high-quality projects that exceed our clients' expectations.
+          Welcome, we are team Everest
         </motion.p>
         <motion.p
           initial={{ opacity: 0, x: -50 }}

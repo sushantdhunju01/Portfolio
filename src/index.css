@@ -44,7 +44,6 @@ body {
 }
 
 .navbar h1 {
-
   font-size: 2.5rem;
 }
 
@@ -56,7 +55,7 @@ body {
 
 .navbar .links h2 {
   color: #282c34;
-  margin: 0 20px; 
+  margin: 0 25px; 
   font-size: 2rem;
   font-weight: 700;
 }
@@ -64,8 +63,7 @@ body {
 .navbar a {
   position: relative;
   text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 .navbar a::after {
@@ -83,7 +81,7 @@ body {
   width: 90%;
 }
 
-/* Person Cards Styles */
+
 .person-cards {
   display: flex;
   justify-content: center;
@@ -99,6 +97,7 @@ body {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   cursor: pointer;
   width: 250px;
+  min-height: 310px;
   text-align: center;
 }
 
@@ -108,7 +107,7 @@ body {
 }
 
 .person-card img {
-  border-radius: 50%;
+  border-radius: 80%;
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -134,7 +133,7 @@ body {
   line-height: 1.4;
 }
 
-/* Portfolio Detail Styles */
+
 .portfolio-detail {
   background-color: #f5f5f5;
   padding: 2rem;
@@ -162,7 +161,7 @@ body {
   align-items: center;
   padding: 2rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
@@ -196,12 +195,11 @@ body {
   line-height: 1.6;
 }
 
-/* Skills Section */
 .skills {
   background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
 
@@ -227,7 +225,7 @@ body {
 .work-experience {
   background-color: white;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
@@ -262,7 +260,7 @@ body {
 .projects {
   background-color: white;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -288,18 +286,13 @@ body {
   background-color: #e0e0e0;
 }
 
-
-
-
 /* About Us Section */
 .about-container {
-  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding: 3rem 2rem;
-
 }
 
 .about-image img {
@@ -309,36 +302,23 @@ body {
 }
 
 .about-content {
-  max-width: 600px;
-  padding: 0 20px;
+  max-width: 40%;
+  padding: 0 15px;
 }
 
 .about-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 4%;
   color: #333;
 }
 
 .about-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   color: #555;
   margin-bottom: 15px;
 }
 
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .about-content {
-    padding: 20px;
-  }
-  .about-image img {
-    max-width: 80%;
-    margin-bottom: 20px;
-  }
-}
 
 /* Contact Us Section */
 .contact-container {
@@ -346,12 +326,11 @@ body {
   padding: 4rem;
   background-color: #f9f9f9;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-container h1 {
   text-align: center;
-  margin-bottom: 2rem;
   font-size: 2.5rem;
   color: #333;
 }
@@ -378,7 +357,7 @@ body {
   padding: 0.75rem;
   font-size: 1rem;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 }
 
 .form-group textarea {

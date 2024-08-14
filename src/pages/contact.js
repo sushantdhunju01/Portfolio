@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { ToastContainer, toast, Zoom } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
     message: "",
   });
 
@@ -21,7 +19,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     toast.success(
-      "Thank you for Contacting us. We will soon contact you back.",
+      "Thank you for contacting us. We will soon contact you back.",
       {
         position: "top-center",
         autoClose: 1500,
@@ -37,7 +35,6 @@ function Contact() {
     setFormData({
       name: "",
       email: "",
-      subject: "",
       message: "",
     });
   };
@@ -81,17 +78,7 @@ function Contact() {
             required
           />
         </div>
-        <div className="form-group">
-          <label htmlFor="subject">Subject:</label>
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            value={formData.subject}
-            onChange={handleChange}
-            required
-          />
-        </div>
+
         <div className="form-group">
           <label htmlFor="message">Message:</label>
           <textarea
@@ -103,7 +90,7 @@ function Contact() {
           />
         </div>
         <button type="submit" className="submit-button">
-          Send Message
+          Submit
         </button>
       </form>
     </div>

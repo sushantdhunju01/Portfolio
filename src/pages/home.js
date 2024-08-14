@@ -4,42 +4,53 @@ import PersonCard from "../components/PersonCard";
 import { motion } from "framer-motion";
 import sushant from "../assests/sushant.jpg";
 import sahir from "../assests/sahir.jpg";
+import warsha from "../assests/warsha.jpg";
 
 const people = [
   {
     id: 1,
-    name: "Vaxo Bhai",
-    role: "Web Developer",
+    name: "Sahir Prajapati",
+    role: "Full Stack Developer",
     description:
-      "Experienced developer with a focus on front-end technologies.",
+      "Experienced full stack developer with extensive knowledge in design.",
     photo: sahir,
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Figma",
+      "Laravel",
+      "Node",
+      "Express",
+      "Adobe Suite",
+    ],
     experience: [
       {
         title: "Senior Developer",
-        company: "Tech Solutions",
-        description: "Led the development of various web applications.",
-        dates: "Jan 2018 - Present",
+        company: "Crocus Pearl",
+        description:
+          "Led a group of developers to implement backend aspects of a ecommerce applications.",
+        dates: "December 2023 - Present",
       },
       {
-        title: "Junior Developer",
-        company: "Web Agency",
-        description: "Worked on multiple client projects and internal tools.",
-        dates: "Jun 2015 - Dec 2017",
+        title: "Creative Lead",
+        company: "IPAS Nepal",
+        description:
+          "Organized and led the team of designers to create various artworks required for the organization.",
+        dates: "February 2023 - April 2023",
       },
     ],
     projects: [
       {
-        title: "E-commerce Website",
-        description: "Built a full-featured online store.",
+        title: "EvoStore",
+        description:
+          "Built an efficient website for the authorized reseller of Apple products while localizing all content and the feel of the website",
       },
       {
-        title: "Portfolio Website",
-        description: "Designed a personal portfolio.",
-      },
-      {
-        title: "Blog Platform",
-        description: "Created a blogging platform with comment features.",
+        title: "Sportify",
+        description:
+          "Designed and developed a platform for sport goers along with two team members which helps the players of various sports to collaborate in the KWC area.",
       },
     ],
     animationDirection: "left",
@@ -97,38 +108,43 @@ const people = [
   },
   {
     id: 3,
-    name: "Mata Ji",
-    role: "Data Scientist",
-    description: "Data-driven professional with expertise in machine learning.",
-    photo: "https://via.placeholder.com/150",
-    skills: ["Python", "R", "SQL", "Machine Learning"],
+    name: "Warsha Jhankri",
+    role: "Front End Developer",
+    description:
+      "Skilled front-end web developer with a focus on creating intuitive and responsive user interfaces",
+    photo: warsha,
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Bootstrap",
+      "jQuery",
+      "WordPress",
+      "ASP.NET Core",
+      "SQL",
+      "MongoDB",
+      "Adobe XD",
+    ],
     experience: [
       {
-        title: "Data Scientist",
-        company: "Analytics Firm",
-        description: "Developed predictive models and analyzed data trends.",
-        dates: "Jan 2019 - Present",
-      },
-      {
-        title: "Data Analyst",
-        company: "Tech Company",
+        title: "Front-End Developer",
+        company: "OASYS I.T. Solutions Pvt. Ltd.",
         description:
-          "Analyzed data and created reports to guide business decisions.",
-        dates: "Jul 2015 - Dec 2018",
+          "Created and maintained front-end code for e-commerce websites. Designed and developed reusable features to meet customer requirements.",
+        dates: "February 2022 – April 2023",
       },
     ],
     projects: [
       {
-        title: "Customer Segmentation",
-        description: "Segmented customer data for targeted marketing.",
+        title: "Sportify",
+        description:
+          "Designed and developed a collaborative platform for sports enthusiasts. Built features to facilitate interaction and organization within the KWC area, including player profiles, event scheduling, and real-time communication tools. Focused on delivering an engaging and user-friendly experience for sports players to connect and collaborate.",
       },
       {
-        title: "Sales Prediction Model",
-        description: "Built a model to forecast sales.",
-      },
-      {
-        title: "Real-time Analytics Dashboard",
-        description: "Developed a dashboard for real-time data visualization.",
+        title: "WebStore",
+        description:
+          "Developed a modern e-commerce site with a responsive design, enhancing user experience across devices. Implemented dynamic features and optimized performance for better customer engagement.",
       },
     ],
     animationDirection: "right",
